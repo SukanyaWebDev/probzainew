@@ -1,0 +1,59 @@
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+  }
+  .App{
+    background-color: rgba(135, 77, 77, 0.889);
+    height: 100vh;
+  }
+  
+  h1{
+    color: rgb(217, 138, 42);
+    font-weight: bold;
+    font-size: 55px;
+  }
+  button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+.containerdivs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+button{
+    border: none;
+    background-color: rgb(31, 31, 40);
+    color: rgb(224, 215, 215);
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+.ourchart{
+    width: 1000px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.buttonscontaner{
+    display: flex;
+    align-items:center;
+    
+    
+}
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
